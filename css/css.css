@@ -113,7 +113,8 @@
 /*  V I S I T */
 
 .visit {
-    padding: 600px 0px 0px 0px;
+    margin-top: 50%;
+    margin-bottom: 10%;
 }
 
 .visit .container span {
@@ -304,7 +305,7 @@
 /* R E V I E W*/
 
 .review {
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .review h1 span {
@@ -322,17 +323,14 @@
 
 .review .review-box {
     display: grid;
-    grid-template-columns: repeat(2, 500px);
-    grid-column-gap: 150px;
-    grid-row-gap: 70px;
-    padding-left: 100px;
+    grid-template-columns: repeat(2, calc(100% / 2));
+    padding: 100px;
 }
 
 .review .person-review {
     height: 160px;
     width: 160px;
-    margin-left: 170px;
-    position: relative;
+    margin-left: 36%;
 }
 
 .review .review-box h2 {
@@ -345,6 +343,7 @@
     color: #777;
     line-height: 1.5;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -353,7 +352,7 @@
 /* C O N T A C T*/
 
 .contact {
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .contact span {
@@ -427,9 +426,8 @@
 
 .end .end-boxs {
     display: grid;
-    grid-template-columns: repeat(4, 210px);
-    grid-column-gap: 100px;
-    margin-left: 100px;
+    grid-template-columns: repeat(4, calc(100% / 4));
+    padding: 50px 100px;
 }
 
 .end .end-boxs h3 {
@@ -439,7 +437,7 @@
     padding-bottom: 20px;
 }
 .end .end-boxs p {
-    text-align: center;
+    text-align: lefcet;
     color: #212529;
     line-height: 1.8;
 }
@@ -472,8 +470,9 @@
 .end-boxs::after {
     content: "";
     height: 2px;
-    width: 1140px;
+    width: 1000px;
     background-color: white;
+    margin-left: 30%;
 }
 
 .end .creater {
