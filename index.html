@@ -1,280 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="icon" href="images/logo.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Travel Easy</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/css.css" />
+  <link rel="icon" href="images/icon.ico" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css.map" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <title>Travel Easy</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><span>T</span>RAVEL <span>E</span>ASY</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <!-- V I D E O - S E C T I O N -->
+  <div class="video-cover" id="home">
+    <div class="video-box">
+      <video src="video/video.mp4" muted autoplay loop></video>
+    </div>
+    <div class="titles d-flex justify-content-center align-items-center text-center">
+      <div class="text-light text-uppercase">
+        <h1 class="fw-bold">adventure is worthwhile</h1>
+        <h3 class="pt-3 pb-3 fw-bold">
+          <i>dicover one of the best contries in the world, Morocco</i>
+        </h3>
+        <a class="rounded-pill" href="#">Discover More</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- C I T I E S - S E C T I O N -->
+  <section class="cities">
+    <div class="container">
+      <div class="section-title text-center">
+        <h1>
+          <span>C</span> <span>I</span> <span>T</span> <span>I</span>
+          <span>E</span> <span>S</span>
+        </h1>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+            aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+            aria-label="Slide 8"></button>
+        </div>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="text-center">
+              <img src="images/fez.jpg" class="img-fluid w-100" alt="Fez" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Fez</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/sahara.jpg" class="img-fluid w-100" alt="Sahara" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Sahara</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/tetouan.jpg" class="img-fluid w-100" alt="Tetouan" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Tetouan</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/casablanca.jpg" class="img-fluid w-100" alt="Casablanca" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Casablanca</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/chefchaouen.jpg" class="img-fluid w-100" alt="Chefchaouen" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Chefchaouen</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/marrakech.jpg" class="img-fluid w-100" alt="marrakech" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Marrakech</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/merzoga.jpg" class="img-fluid w-100" alt="merzoga" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Merzoga</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div>
+              <img src="images/kasbah.jpg" class="img-fluid w-100" alt="kasbah" />
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1 fw-bolder">Kasbah</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link hovered" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#visit" >Visit</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#review">Review</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- F E A T U R E S - S E C T I O N -->
+  <section class="features pt-2 pb-5 bg-gray">
+    <div class="srv-container">
+      <div class="section-title text-center">
+        <h1>
+          <span>F</span> <span>E</span> <span>A</span> <span>T</span>
+          <span>U</span> <span>R</span> <span>E</span> <span>S</span>
+        </h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+            <i class="fa-solid fa-hotel fs-1 main-color"></i>
+            <h3 class="mt-3 mb-3 main-color">Hotels</h3>
+            <p class="fs-5">
+              In Morocco there over 4.5 thousand hotels with average 90
+              hotels / city.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+            <i class="fa-solid fa-utensils fs-1 main-color"></i>
+            <h3 class="mt-3 mb-3 main-color">Food And Drinks</h3>
+            <p class="fs-5">
+              Morocco kitchen is a very delicious and popular.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+            <i class="fa-solid fa-shield-heart fs-1 main-color"></i>
+            <h3 class="mt-3 mb-3 main-color">Safty</h3>
+            <p class="fs-5">Morocco is one of safeties countries in the world.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+            <i class="fa-solid fa-map-location-dot fs-1 main-color"></i>
+            <h3 class="mt-3 mb-3 main-color">Travel between cities</h3>
+            <p class="fs-5">You can travel easier between Cities.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+            <i class="fa-solid fa-umbrella-beach fs-1 main-color"></i>
+            <h3 class="mt-3 mb-3 main-color">Beachs</h3>
+            <p class="fs-5">
+              Morocco is overlooking two different seas (Atlantic Ocean
+              and Mediterranean Sea).
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+            <i class="fa-solid fa-mountain-sun fs-1 main-color"></i>
+            <h3 class="mt-3 mb-3 main-color">Mountains</h3>
+            <p class="fs-5">
+              Morocco there one of the highest mountains in the world which is Atlas Mountain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- R E V I E W S - S E C T I O N -->
+  <section class="reviews">
+    <div class="container">
+      <div class="section-title text-center">
+        <h1>
+          <span>R</span> <span>E</span> <span>V</span> <span>I</span>
+          <span>E</span> <span>W</span> <span>S</span>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card p-3 bg-gray">
+            <p class="lh-lg fs-5">
+              <i class="fa-solid fa-quote-left pe-2 main-color main-color"></i>
+              This trip exceeded my expectations. The accommodation was great,
+              locations amazing and the Moroccan people -incredibly friendly.
+              Our leader went the extra mile to ensure we are comfortable and
+              that we are happy. The food was delicious. The activities and
+              knowledge about the history - amazing. I can't wait to book my
+              next trip with intrepid
+              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
+            </p>
+            <p class="person fst-italic main-color">Catharina</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card p-3 bg-gray">
+            <p class="lh-lg fs-5">
+              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Brilliant jam packed trip. Morocco is a
+              vibrant country and
+              this trip was everything we hoped for - beautiful views,
+              colourful experiences, great food, a brilliant tour guide and
+              great company on the trip. Would recommend this trip a million
+              times over.
+              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
+            </p>
+            <p class="person fst-italic main-color">Elsie</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card p-3 bg-gray">
+            <p class="lh-lg fs-5">
+              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Amazing experience exploring magical
+              Morocco with Intrepid.
+              Great accommodation, transport and visits to key destinations
+              with an exceptional local guide made this trip for us.
+              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
+            </p>
+            <p class="person fst-italic main-color">Veronica & Allan</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card p-3 bg-gray">
+            <p class="lh-lg fs-5">
+              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>I went on the North Morocco adventure in
+              September 2023. It was
+              a 9 day trip which gave you a great overview of the different
+              Moroccan areas north, it’s people, culture and geography. Our
+              trip was blessed with a wonderful guide Mustapha who was the
+              epitome of kind, caring leaders with a wealth of knowledge. We
+              had a range of experiences.
+              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
+            </p>
+            <p class="person fst-italic main-color">Julianne</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card p-3 bg-gray">
+            <p class="lh-lg fs-5">
+              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Our Morocco trip far exceeded my
+              expectations. Despite our
+              concerns about the recent earthquake and then a heatwave, our
+              trip went forward and was well organised and run with
+              sensitivity and flexibility by tour leader Hassan. I loved our
+              trip and the resilience and hospitality of Morocco and I highly
+              recommend seeing it with Intrepid Travel!
+              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
+            </p>
+            <p class="person fst-italic main-color">Alyson</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="card p-3 bg-gray">
+            <p class="lh-lg fs-5">
+              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Our trip to Northern Morocco was our
+              seventh Intrepid trip. We
+              look forward to another seven. Our trip leader, fellow
+              travelers, the people we met along the way, and the places we
+              visited were fonts of rich learning and wonderful memories that
+              we will carry for many years.
+              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
+            </p>
+            <p class="person fst-italic main-color">Jeffrey</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- G A L L E R Y - S E C T I O N -->
+  <section class="gallery pt-2 pb-3 bg-gray">
+    <div class="container">
+      <div class="section-title text-center">
+        <h1>
+          <span>G</span> <span>A</span> <span>L</span> <span>L</span>
+          <span>E</span> <span>R</span> <span>Y</span>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (1).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (8).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (3).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (4).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (5).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (6).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (7).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+          <div class="box mb-3 bg-white">
+            <img class="img-fluid" src="images/gallery (9).jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C O N T A C T - S E C T I O N -->
+  <section class="contact">
+    <div class="container">
+      <div class="section-title text-center">
+        <h1>
+          <span>C</span> <span>O</span> <span>N</span> <span>T</span>
+          <span>A</span> <span>C</span> <span>T</span>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <h3 class="fw-bolder">Contact Me Here</h3>
+          <p class="mt-3 mb-5 fs-5">Hi! my name is Jalal Amourgha and i'm from Morocco. If You have quetions about
+            travel to Morocco or general quetions about the country fell free dm me.
+          </p>
+          <ul class="list-unstyled d-flex">
+            <li class="fs-2 me-3"><a href="https://www.instagram.com/amr___jalal/" target="_blank"><i
+                  class="fa-brands fa-instagram"></i></a></li>
+            <li class="fs-2 me-3"><a href="https://twitter.com/Amr_Jalal22" target="_blank"><i
+                  class="fa-brands fa-x-twitter"></i></a></li>
+            <li class="fs-2 me-3"><a href="https://www.linkedin.com/in/jalal-amourgha-870493286/" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="fs-2 me-3"><a href="https://github.com/Jalal-Amourgha" target="_blank"><i
+                  class="fa-brands fa-github"></i></a></li>
           </ul>
         </div>
-    </nav>
-    <div class="video-cover" id="home">
-        <video src="video/cover.mp4" muted autoplay loop></video>
-        <h1>adventure is worthwhile</h1>
-        <h3><i>dicover one of the best contries in the world, Morocco</i></h3>
-        <button><a href="#">Discover More</a></button>
-    </div>
-    <div class="visit" id="visit">
-        <div class="container">
-            <h1><span>V</span> <span>I</span> <span>S</span> <span>I</span> <span class="unique">T</span> <span>N</span>    <span>o</span> <span>w</span></h1>
-            <div class="visit-now">
-                <img  class="img-for-phone" src="images/icon-one.png" alt="icon">
-                <div class="list">
-                    <h3>Where to</h3>
-                    <input type="text" placeholder="Welcome to Morocco">
-                    <ul>
-                        <li>Tetouan</li>
-                        <li>Fes</li>
-                        <li>Casablanca</li>
-                        <li>Marrakech</li>
-                        <li>Dakhla</li>
-                        <li>Merzouga</li>
-                        <li>Tanger</li>
-                        <li>Chefchaouen</li>
-                        <li>Hoceima</li>
-                        <li>Agadir</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="inputs">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <textarea placeholder="Message ..."></textarea>
+          </div>
+          <button class="rounded-pill">Send</button>
         </div>
+      </div>
     </div>
-    <div class="services" id="services">
-        <div class="srv-container">
-            <h1><span>S</span> <span>E</span> <span>R</span> <span>V</span> <span>I</span> <span>C</span> <span>E</span> <span>S</span></h1>
-            <div class="container">
-                <div class="row">
-                  <div class="col col-12 col-lg-4 col-md-3">
-                    <i class="fa-solid fa-hotel"></i>
-                    <h3>Affordable Hotels</h3>
-                    <p>In Morocco there over 4.5 thousand hotels with average 90 hotels/city most of them are modernise.</p>
-                  </div>
-                  <div class="col col-12 col-lg-4 col-md-3">
-                    <i class="fa-solid fa-utensils"></i>
-                    <h3>Food And Drinks</h3>
-                    <p>Morocco kitchen is diffrent, i recommand you to try Couscous, Atay, Tagine, Meat with sougar, Harira, Tanjiya, ... .</p>
-                  </div>
-                  <div class="col col-12 col-lg-4 col-md-3">
-                    <i class="fa-solid fa-shield-heart"></i>
-                    <h3>Safty</h3>
-                    <p>Morocco is one of safeties countries in the world.</p>
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="col col-12 col-lg-4 col-md-3">
-                    <i class="fa-solid fa-map-location-dot"></i>
-                    <h3>Travel between cities</h3>
-                    <p>You can travel easier between Cities.</p>
-                  </div>
-                  <div class="col col-12 col-lg-4 col-md-3">
-                    <i class="fa-solid fa-umbrella-beach"></i>
-                    <h3>Wonderful Beachs</h3>
-                    <p>As you Morocco is overlooking two different seas (Atlantic Ocean and Mediterranean Sea).</p>
-                  </div>
-                  <div class="col col-12 col-lg-4 col-md-3">
-                    <i class="fa-solid fa-mountain-sun"></i>
-                    <h3>Amazing Mountains</h3>
-                    <p>North of Morocco surrounded by many beautiful Mountains also in Morocco there one of the heighest mountains in the world which is Atlas Mountain.</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="gallery" id="gallery">
-        <h1><span>G</span> <span>A</span> <span>L</span> <span>L</span> <span>E</span> <span>R</span> <span>Y</span></h1>
-        <div class="container">
-            <div class="row">
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Casablanca</h2>
-                        <p>The largest City in morocco</p>
-                        <button>See More</button>
-                    </div>
-                    <img class="picture" src="images/casablanca.jpg" alt="Casablanca">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Chefchaouen</h2>
-                        <p>The blue city</p>
-                        <button>See More</button>
-                    </div> 
-                    <img class="picture" src="images/Chefchaoue.webp" alt="Chefchaouen">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>hoceima</h2>
-                        <p>best beachs in morocco</p>
-                        <button>See More</button>
-                    </div> 
-                    <img class="picture" src="images/h.jpg" alt="hoceima">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Fes</h2>
-                        <p>The oldest City in morocco</p>
-                        <button>See More</button>
-                    </div>
-                    <img class="picture" src="images/fes.webp" alt="Fes">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Agadir</h2>
-                        <p>City of Tamazight</p>
-                        <button>See More</button>
-                    </div>
-                    <img class="picture" src="images/agadir.jpg" alt="Agadir">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Sahara</h2>
-                        <p>Sahra</p>
-                        <button>See More</button>
-                    </div>
-                    <img class="picture" src="images/sahara.jpg" alt="sahara">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Dakhla</h2>
-                        <p>City for Swimmers</p>
-                        <button>See More</button>
-                    </div> 
-                    <img class="picture" src="images/dakhla.jpg" alt="Dakhla">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Merrakech</h2>
-                        <p>The most visited city in Africa</p>
-                        <button>See More</button>
-                    </div>
-                    <img class="picture" src="images/merrakeshch.jpg" alt="Marrakesh">
-                </div>
-                <div class="col col-12 col-lg-4 col-md-3">
-                    <div class="cover">
-                        <h2>Tetouan</h2>
-                        <p>City of calm (my city 🙃)</p>
-                        <button>See More</button>
-                    </div> 
-                    <img class="picture" src="images/tetouan.webp" alt="Tetouan">
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <div class="review" id="review">
-        <h1><span>R</span> <span>E</span> <span>V</span> <span>I</span> <span>E</span> <span>W</span> </h1>
-        <div class="review-box">
-            <div class="persons">
-                <img class="person-review" src="images/jalal.png" alt="jalal'sreview">
-                <h2>Jalal</h2>
-                <p>I found Morocco really good place to live.</p>
-            </div>
-            <div class="persons">
-                <img class="person-review" src="images/anas.png" alt="anas's review">
-                <h2>Anas</h2>
-                <p>I traveled from UAE to Morocco and it was a wonderfull experience.</p>
-            </div>
-            <div class="persons">
-                <img class="person-review" src="images/yahya.png" alt="yahya's review">
-                <h2>Yahya</h2>
-                <p>Morocco is the best Country i ever see.</p>
-            </div>
-            <div class="persons">
-                <img class="person-review" src="images/moussab.png" alt="Mossab's review">
-                <h2>Mousaab</h2>
-                <p>I'm fron Spain, Morocco is diffrent.</p>
-            </div>
-        </div>
-    </div>
-    <div class="contact" id="contact">
-        <h1><span>C</span> <span>O</span> <span>N</span> <span>T</span> <span>A</span> <span>C</span> <span>T</span></h1>
-        <div class="contact-boxs">
-            <div class="contact-box">
-                <img class="contact-icon img-for-phone" src="images/contact-icon.png" alt="contact-icon">
-            </div>
-            <div class="contact-infos">
-                <div class="input-grid">
-                    <input type="text" placeholder="name">
-                    <input type="text" placeholder="email">
-                    <input type="text" placeholder="number">
-                    <input type="text" placeholder="subjct">
-                </div>
-                <div><input class="unique" type="text" placeholder="message">   </div>   
-                <button>Send</button>              
-            </div>
-        </div>
-    </div>
-    <div class="end">
-        <div class="end-boxs">
-            <div class="about-me">
-                <h3>About Me</h3>
-                <p>Hello There my name is Jalal Amourgha i'm nineteen years old boy from Morocco, i started learning programming two months ago.</p>
-            </div>
-            <div class="locals">
-                <h3>Cities</h3>
-                <ul class="first-ul">
-                    <li>Tetouan</li>
-                    <li>Fes</li>
-                    <li>Casablanca</li>
-                    <li>Marrakech</li>
-                    <li>Dakhla</li>
-                    <li>Merzouga</li>
-                    <li>Tanger</li>
-                    <li>Chefchaouen</li>
-                    <li>Hoceima</li>
-                    <li>Agadir</li>
-                </ul>
-            </div>
-            <div class="links">
-                <h3>Quick Links</h3>
-                <ul class="second-ul">
-                    <li>Home</li>
-                    <li>Visit</li>
-                    <li>Services</li>
-                    <li>Gallery</li>
-                    <li>Review</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="social">
-                <h3>My Socials</h3>
-                <ul>
-                    <li><a href="https://web.facebook.com/amour.gha12/">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/amr___jalal/">Instagram</a></li>
-                    <li><a href="https://twitter.com/Amr_Jalal22">Twitter</a></li>
-                    <li><a href="https://github.com/Jalal-Amourgha">Git hub</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="creater">Created By Jalal Amourgha</div>
+
+    <!-- C R E A T E D - S E C T I O N -->
+    <div class="created text-center">
+      <h6 class="m-0">Created By Jalal Amourgha</h6>
     </div>
 </body>
-<script src="https://kit.fontawesome.com/97220a04d8.js" crossorigin="anonymous"></script>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+
 </html>
