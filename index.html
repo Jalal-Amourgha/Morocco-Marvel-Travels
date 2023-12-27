@@ -6,341 +6,438 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/css.css" />
-  <link rel="icon" href="images/icon.ico" />
+  <link rel="icon" href="images/icon.png">
   <link rel="stylesheet" href="css/all.min.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css.map" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <title>Visit Morocco</title>
+  <title>Morocco Marvel Travels</title>
 </head>
 
 <body>
+  <!-- N A V B A R -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" /></a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav text-center ms-auto mb-2 mb-lg-0">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Experiences</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
   <!-- V I D E O - S E C T I O N -->
   <div class="video-cover" id="home">
     <div class="video-box">
       <video src="video/video.mp4" muted autoplay loop></video>
     </div>
     <div class="titles d-flex justify-content-center align-items-center text-center">
-      <div class="text-light text-uppercase">
-        <h1 class="fw-bold">adventure is worthwhile</h1>
+      <div class="text-light ">
+        <h1 class="fw-bold">Adventure is Worthwhile</h1>
         <h3 class="pt-3 pb-3 fw-bold">
-          <i>dicover one of the best contries in the world, Morocco</i>
+          <i>Dicover best Cities in Morocco</i>
         </h3>
-        <a class="rounded-pill" href="#">Discover More</a>
       </div>
     </div>
   </div>
 
-  <!-- C I T I E S - S E C T I O N -->
-  <section class="cities">
+  <!-- E X P E R I E N C E - S E C T I O N -->
+  <section class="experiences m-100" id="experience">
     <div class="container">
-      <div class="section-title text-center">
-        <h1>
-          <span>C</span> <span>I</span> <span>T</span> <span>I</span>
-          <span>E</span> <span>S</span>
-        </h1>
+      <div class="title-section">
+        <h1>Explore wonderful Experiences</h1>
       </div>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-            aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-            aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-            aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-            aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
-            aria-label="Slide 8"></button>
-        </div>
-        <div class="carousel-inner text-center">
-          <div class="carousel-item active">
-            <div class="text-center">
-              <img src="images/fez.jpg" class="img-fluid w-100" alt="Fez" />
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 1.jpg" class="img-fluid">
             </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Fez</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/sahara.jpg" class="img-fluid w-100" alt="Sahara" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Sahara</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/tetouan.jpg" class="img-fluid w-100" alt="Tetouan" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Tetouan</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/casablanca.jpg" class="img-fluid w-100" alt="Casablanca" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Casablanca</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/chefchaouen.jpg" class="img-fluid w-100" alt="Chefchaouen" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Chefchaouen</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/marrakech.jpg" class="img-fluid w-100" alt="marrakech" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Marrakech</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/merzoga.jpg" class="img-fluid w-100" alt="merzoga" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Merzoga</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div>
-              <img src="images/kasbah.jpg" class="img-fluid w-100" alt="kasbah" />
-            </div>
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="fs-1 fw-bolder">Kasbah</h5>
+            <div class="img-details">
+              <h4 class="fw-bolder">Camel Ride</h4>
+              <p>Merzouga</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 2.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Explore Jemaa el-Fnaa</h4>
+              <p>Marrakesh</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 3.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Moroccan Architecture</h4>
+              <p>Fes</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 4.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Hiking</h4>
+              <p>Atlas Mountains</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 5.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Blue City</h4>
+              <p>Chefchaouen</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 6.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Air Balloon</h4>
+              <p>Marrakesh</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 7.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Moroccan Food</h4>
+              <p>All Cities</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
+          <div class="card-box">
+            <div class="img-box">
+              <img src="images/experience 8.jpg" class="img-fluid">
+            </div>
+            <div class="img-details">
+              <h4 class="fw-bolder">Kitesurfing</h4>
+              <p>Essaouira</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- F E A T U R E S - S E C T I O N -->
-  <section class="features pt-2 pb-5 bg-gray">
-    <div class="srv-container">
-      <div class="section-title text-center">
-        <h1>
-          <span>F</span> <span>E</span> <span>A</span> <span>T</span>
-          <span>U</span> <span>R</span> <span>E</span> <span>S</span>
-        </h1>
+  <!-- P A C K A G E S - S E C T I O N -->
+  <section class="packages m-100" id="packages">
+    <div class="container">
+      <div class="title-section">
+        <h1>Packages</h1>
+        <p>The most popular tour packages</p>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
-            <i class="fa-solid fa-hotel fs-1 main-color"></i>
-            <h3 class="mt-3 mb-3 main-color">Hotels</h3>
-            <p class="fs-5">
-              In Morocco there over 4.5 thousand hotels with average 90
-              hotels / city.
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="package-box  position-relative">
+            <div class="img-overlay"></div>
+            <img src="images/package 1.jpg">
+            <div class="img-details">
+              <h4>Marrakesh</h4>
+              <div class="d-flex justify-content-between">
+                <p>4 Days</p>
+                <p>$400</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="package-box position-relative">
+            <div class="img-overlay"></div>
+            <img src="images/pakckage 2.jpg">
+            <div class="img-details">
+              <h4>Fez</h4>
+              <div class="d-flex justify-content-between">
+                <p>2 Days</p>
+                <p>$200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="package-box position-relative">
+            <div class="img-overlay"></div>
+            <img src="images/package 3.jpg">
+            <div class="img-details">
+              <h4>Merzouga</h4>
+              <div class="d-flex justify-content-between">
+                <p>3 Days</p>
+                <p>$350</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="package-box position-relative">
+            <div class="img-overlay"></div>
+            <img src="images/package 4.jpg">
+            <div class="img-details">
+              <h4>Chefchaouen</h4>
+              <div class="d-flex justify-content-between">
+                <p>5 Days</p>
+                <p>$200</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <button>Explore More <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- A B O U T - S E C T I O N -->
+  <section class="about m-100" id="about">
+    <div class="container">
+      <div class="title-section">
+        <h1>About us</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
+          <div class="about-box">
+            <i class="fa-solid fa-ranking-star"></i>
+            <h4 class="fw-bold mb-4">Achievements</h4>
+            <p class="fw-normal">Discover the accolades that define us At Morocco Marvel Travels. Our achievements,
+              from
+              industry awards to glowing
+              client testimonials, showcase our commitment to excellence in crafting unforgettable travel experiences.
+              Join us and
+              experience the difference of choosing a travel agency with a proven track record of success."</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
+          <div class="about-box">
+            <i class="fa-solid fa-users"></i>
+            <h4 class="fw-bold mb-4">Travelers</h4>
+            <p class="fw-normal">Trust a travel agency with a proven track record. Morocco Marvel Travels has garnered
+              accolades and positive reviews,
+              showcasing our commitment to delivering exceptional travel experiences. Read testimonials from satisfied
+              clients who
+              have made lasting memories with us.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
+          <div class="about-box">
+            <i class="fa-solid fa-calendar-days"></i>
+            <h4 class="fw-bold mb-4">Booking</h4>
+            <p class="fw-normal">Your journey begins with ease at Morocco Marvel Travels. Experience the simplicity and
+              efficiency of our booking
+              process, whether you choose our intuitive online platform, user-friendly app, or personalized assistance
+              from our expert
+              travel consultants.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
+          <div class="about-box">
+            <i class="fa-solid fa-person-military-pointing"></i>
+            <h4 class="fw-bold mb-4">Tour Guide</h4>
+            <p class="fw-normal">Join us on a journey towards sustainable and responsible tourism. At Morocco Marvel
+              Travels , we are committed to minimizing our environmental impact, promoting eco-friendly travel options,
+              and contributing to the
+              communities we
+              visit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
+          <div class="about-box">
+            <i class="fa-solid fa-headset"></i>
+            <h4 class="fw-bold mb-4">Customer Support</h4>
+            <p class="fw-normal">In our Agency, commitment to exceptional customer
+              service is unwavering. From transparent pricing to 24/7 support, we prioritize your needs at every step,
+              ensuring a
+              seamless and enjoyable travel planning process.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
+          <div class="about-box">
+            <i class="fa-solid fa-handshake"></i>
+            <h4 class="fw-bold mb-4">Partnerships</h4>
+            <p class="fw-normal">Elevate your travel experience with exclusive partnerships forged by Morocco Marvel
+              Travels. Gain access to top-tier hotels, airlines, and tour operators, securing not only exceptional
+              service but also exclusive deals and
+              perks that make
+              your journey extraordinary.
             </p>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
-            <i class="fa-solid fa-utensils fs-1 main-color"></i>
-            <h3 class="mt-3 mb-3 main-color">Food And Drinks</h3>
-            <p class="fs-5">
-              Morocco kitchen is a very delicious and popular.
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
-            <i class="fa-solid fa-shield-heart fs-1 main-color"></i>
-            <h3 class="mt-3 mb-3 main-color">Safty</h3>
-            <p class="fs-5">Morocco is one of safeties countries in the world.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
-            <i class="fa-solid fa-map-location-dot fs-1 main-color"></i>
-            <h3 class="mt-3 mb-3 main-color">Travel between cities</h3>
-            <p class="fs-5">You can travel easier between Cities.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
-            <i class="fa-solid fa-umbrella-beach fs-1 main-color"></i>
-            <h3 class="mt-3 mb-3 main-color">Beachs</h3>
-            <p class="fs-5">
-              Morocco is overlooking two different seas (Atlantic Ocean
-              and Mediterranean Sea).
-            </p>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
-            <i class="fa-solid fa-mountain-sun fs-1 main-color"></i>
-            <h3 class="mt-3 mb-3 main-color">Mountains</h3>
-            <p class="fs-5">
-              Morocco there one of the highest mountains in the world which is Atlas Mountain.
-            </p>
-          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!-- Q U E S T I O N S - S E C T I O N -->
+  <section class="questions m-100">
+    <div class="container">
+      <div class="text-center">
+        <h1>Frequently Asked Questions</h1>
+        <p>Find out why our customers can not stop raving about social media booster platform. Read their testimonials
+          and join
+          the journey to success today.</p>
+      </div>
+      <div class="question">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h4>What services does your travel agency offer?</h4>
+          <button>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="answear" id="answear1">
+          We offer a wide range of services, including customized travel itineraries, flight and hotel bookings,
+          transportation
+          arrangements, and assistance with travel documentation.
+        </div>
+      </div>
+      <div class="question">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h4>How do I book a vacation package with your agency?</h4>
+          <button>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="answear" id="answear2">
+          Booking with us is easy! You can browse our website for available packages and use our secure online booking
+          system.
+          Alternatively, you can contact our experienced travel consultants for personalized assistance.
+        </div>
+      </div>
+      <div class="question">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h4>Can your agency help with visa applications and travel insurance?</h4>
+          <button>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+        <div class="answear" id="answear3">
+          Yes, we provide assistance with visa applications and can recommend suitable travel insurance options to
+          ensure a
+          worry-free journey.
         </div>
       </div>
     </div>
   </section>
 
   <!-- R E V I E W S - S E C T I O N -->
-  <section class="reviews">
+  <section class="reviews m-100" id="reviews">
     <div class="container">
-      <div class="section-title text-center">
-        <h1>
-          <span>R</span> <span>E</span> <span>V</span> <span>I</span>
-          <span>E</span> <span>W</span> <span>S</span>
-        </h1>
+      <div class="title-section">
+        <h1>What our clients say about us</h1>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card p-3 bg-gray">
-            <p class="lh-lg fs-5">
-              <i class="fa-solid fa-quote-left pe-2 main-color main-color"></i>
-              This trip exceeded my expectations. The accommodation was great,
-              locations amazing and the Moroccan people -incredibly friendly.
-              Our leader went the extra mile to ensure we are comfortable and
-              that we are happy. The food was delicious. The activities and
-              knowledge about the history - amazing. I can't wait to book my
-              next trip with intrepid
-              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
-            </p>
-            <p class="person fst-italic main-color">Catharina</p>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="review-box">
+            <div class="review-details">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="position-relative z-3">I recently booked a vacation package with Morocco Marvel Travels, and I
+                couldn't be happier with the service. The travel
+                consultants were friendly, knowledgeable, and helped me create the perfect itinerary. Thanks to them, my
+                vacation was
+                stress-free and absolutely amazing!</p>
+            </div>
+            <div class="review-img">
+              <svg class="wave" viewBox="0 0 80 150" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none">
+                <path d="M0 50 Q 20 20, 40 50 T 80 50 V 150 H 0 Z" fill="#0c195c" />
+              </svg>
+              <div class="text-center position-relative z-3 text-white">
+                <img src="images/person2.jpg" alt="">
+                <h4 class="mt-4">Emily Rodriguez</h4>
+                <div class="d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card p-3 bg-gray">
-            <p class="lh-lg fs-5">
-              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Brilliant jam packed trip. Morocco is a
-              vibrant country and
-              this trip was everything we hoped for - beautiful views,
-              colourful experiences, great food, a brilliant tour guide and
-              great company on the trip. Would recommend this trip a million
-              times over.
-              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
-            </p>
-            <p class="person fst-italic main-color">Elsie</p>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="review-box">
+            <div class="review-details">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="position-relative z-3">Booking my trip with Morocco Marvel Travels was a breeze. The website is
+                user-friendly, and the booking process was smooth.
+                Plus, I got a fantastic discount on my package! I highly recommend this agency for hassle-free travel
+                planning.</p>
+            </div>
+            <div class="review-img">
+              <svg class="wave" viewBox="0 0 80 150" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none">
+                <path d="M0 50 Q 20 20, 40 50 T 80 50 V 150 H 0 Z" fill="#0c195c" />
+              </svg>
+              <div class="text-center position-relative  z-3 text-white">
+                <img src="images/person1.jpg" alt="">
+                <h4 class="mt-4">Daniel Foster</h4>
+                <div class="d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card p-3 bg-gray">
-            <p class="lh-lg fs-5">
-              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Amazing experience exploring magical
-              Morocco with Intrepid.
-              Great accommodation, transport and visits to key destinations
-              with an exceptional local guide made this trip for us.
-              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
-            </p>
-            <p class="person fst-italic main-color">Veronica & Allan</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card p-3 bg-gray">
-            <p class="lh-lg fs-5">
-              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>I went on the North Morocco adventure in
-              September 2023. It was
-              a 9 day trip which gave you a great overview of the different
-              Moroccan areas north, it’s people, culture and geography. Our
-              trip was blessed with a wonderful guide Mustapha who was the
-              epitome of kind, caring leaders with a wealth of knowledge. We
-              had a range of experiences.
-              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
-            </p>
-            <p class="person fst-italic main-color">Julianne</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card p-3 bg-gray">
-            <p class="lh-lg fs-5">
-              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Our Morocco trip far exceeded my
-              expectations. Despite our
-              concerns about the recent earthquake and then a heatwave, our
-              trip went forward and was well organised and run with
-              sensitivity and flexibility by tour leader Hassan. I loved our
-              trip and the resilience and hospitality of Morocco and I highly
-              recommend seeing it with Intrepid Travel!
-              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
-            </p>
-            <p class="person fst-italic main-color">Alyson</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <div class="card p-3 bg-gray">
-            <p class="lh-lg fs-5">
-              <i class="fa-solid fa-quote-left pe-2 main-color main-colo"></i>Our trip to Northern Morocco was our
-              seventh Intrepid trip. We
-              look forward to another seven. Our trip leader, fellow
-              travelers, the people we met along the way, and the places we
-              visited were fonts of rich learning and wonderful memories that
-              we will carry for many years.
-              <i class="fa-solid fa-quote-right ps-2 main-color main-color"></i>
-            </p>
-            <p class="person fst-italic main-color">Jeffrey</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- G A L L E R Y - S E C T I O N -->
-  <section class="gallery pt-2 pb-3 bg-gray">
-    <div class="container">
-      <div class="section-title text-center">
-        <h1>
-          <span>G</span> <span>A</span> <span>L</span> <span>L</span>
-          <span>E</span> <span>R</span> <span>Y</span>
-        </h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (1).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (8).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (3).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (4).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (5).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (6).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (7).jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
-          <div class="box mb-3 bg-white">
-            <img class="img-fluid" src="images/gallery (9).jpg" alt="">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="review-box">
+            <div class="review-details">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="position-relative z-3">What sets Morocco Marvel Travels apart is their exceptional customer
+                support. I had a few questions and needed assistance
+                with my travel plans, and their team was available 24/7 to help. It's great to know that they prioritize
+                their
+                customers' needs.</p>
+            </div>
+            <div class="review-img">
+              <svg class="wave" viewBox="0 0 80 150" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none">
+                <path d="M0 50 Q 20 20, 40 50 T 80 50 V 150 H 0 Z" fill="#0c195c" />
+              </svg>
+              <div class="text-center position-relative  z-3 text-white">
+                <img src="images/person3.jpg">
+                <h4 class="mt-4">Alex Carter</h4>
+                <div class="d-flex justify-content-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -348,49 +445,180 @@
   </section>
 
   <!-- C O N T A C T - S E C T I O N -->
-  <section class="contact">
-    <div class="container">
-      <div class="section-title text-center">
-        <h1>
-          <span>C</span> <span>O</span> <span>N</span> <span>T</span>
-          <span>A</span> <span>C</span> <span>T</span>
-        </h1>
+  <section class="contact m-100" id="contact">
+    <div class="title-section">
+      <h1>Contact us</h1>
+    </div>
+    <div class="container position-relative">
+      <div class="contact-boxes">
+        <div class="contact-information">
+          <h1 class="text-light mb-5">Contact us</h1>
+          <div class="d-flex align-items-center mb-5">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>32, Avenue Mohamed Khamis <br>93000 Tetouan,Morocco</p>
+          </div>
+          <div class="d-flex align-items-center mb-5">
+            <i class="fa-regular fa-envelope"></i>
+            <p>MoroccoTravel@hotmail.fr</p>
+          </div>
+          <div class="d-flex align-items-center mb-5">
+            <i class="fa-solid fa-phone"></i>
+            <p>+212 666 777 888</p>
+          </div>
+          <div class="d-flex align-items-center mb-5">
+            <i class="fa-solid fa-fax"></i>
+            <p>+212 666 777 888</p>
+          </div>
+        </div>
+        <div class="contact-box">
+          <h1>Get in Touch</h1>
+          <p>We'd love to recive message from you.</p>
+          <form action="https://formsubmit.co/2bb4b50d4b3676e79e3d46764fbce9e8" method="POST">
+            <div>
+              <input type="text" name="Name" placeholder="Full Name" required />
+            </div>
+            <div>
+              <input type="email" name="Email" placeholder="Email" required />
+            </div>
+            <textarea name="Message" rows="5" placeholder="Message" required></textarea>
+            <br />
+            <button type="submit">Send</button>
+          </form>
+          <span class="arrow"></span>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- S U B S C R I B E - S E C T I O N -->
+  <section class="subscribe m-100">
+    <div class="container">
+      <div class="title-section">
+        <h1>Subscribe to know about our new hot packages</h1>
+        <p>Join our community for exclusive travel deals and insider tips. Be the first to know about
+          handpicked destinations and special promotions. Subscribe now for unforgettable adventures with Morocco Marvel
+          Travels!</p>
+      </div>
+      <div class="subscribe-box position-relative">
+        <input type="text" placeholder="Enter your Email addresse">
+        <span>Subscribe</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- S P O N S O R S - S E C T I O N -->
+  <section class="sponsors m-100">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-sm-12">
-          <h3 class="fw-bolder">Contact Me Here</h3>
-          <p class="mt-3 mb-5 fs-5">Hi! my name is Jalal Amourgha and i'm from Morocco. If You have quetions about
-            travel to Morocco or general quetions about the country fell free dm me.
-          </p>
-          <ul class="list-unstyled d-flex">
-            <li class="fs-2 me-3"><a href="https://www.instagram.com/amr___jalal/" target="_blank"><i
-                  class="fa-brands fa-instagram"></i></a></li>
-            <li class="fs-2 me-3"><a href="https://twitter.com/Amr_Jalal22" target="_blank"><i
-                  class="fa-brands fa-x-twitter"></i></a></li>
-            <li class="fs-2 me-3"><a href="https://www.linkedin.com/in/jalal-amourgha-870493286/" target="_blank"><i
-                  class="fa-brands fa-linkedin-in"></i></a></li>
-            <li class="fs-2 me-3"><a href="https://github.com/Jalal-Amourgha" target="_blank"><i
-                  class="fa-brands fa-github"></i></a></li>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
+          <img src="images/sponsor1.png" alt="sponsor">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
+          <img src="images/sponsor2.png" alt="sponsor">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
+          <img src="images/sponsor3.png" alt="sponsor">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
+          <img src="images/sponsor4.png" alt="sponsor">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
+          <img src="images/sponsor5.png" alt="sponsor">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
+          <img src="images/sponsor6.png" alt="sponsor">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container under-line"></div>
+
+  <!-- F O O T E R - S E C T I O N -->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6  mb-3">
+          <img src="images/footer-logo.png" alt="logo">
+          <p>Morocco Marvel Travels it'an agency for trips.</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+          <h4 class="mb-4">Product</h4>
+          <ul>
+            <li>
+              <a href="#">Overview</a>
+            </li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Release</a></li>
           </ul>
         </div>
-        <div class="col-lg-6 col-sm-12">
-          <div class="inputs">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
-            <textarea placeholder="Message ..."></textarea>
-          </div>
-          <button class="rounded-pill">Send</button>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+          <h4 class="mb-4">Company</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Carriere</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Media Kit</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+          <h4 class="mb-4">Resoses</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
+          <h4 class="mb-4">Socials</h4>
+          <ul>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Whatsapp</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <h4 class="mb-4">Legal</h4>
+          <ul>
+            <li><a href="#">Termes</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cokkies</a></li>
+            <li><a href="#">Licenses</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
       </div>
+      <div class="under-line"></div>
+      <div class="d-flex justify-content-between">
+        <p>&copy; 2024 <span>Morocco Marvel Travels</span> all rights reserved.</p>
+        <ul class="d-flex socials">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-square-x-twitter"></i></li>
+          <li><i class="fa-brands fa-github"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-linkedin"></i></li>
+          <li><i class="fa-brands fa-whatsapp"></i></li>
+        </ul>
+      </div>
     </div>
+  </section>
 
-    <!-- C R E A T E D - S E C T I O N -->
-    <div class="created text-center">
-      <h6 class="m-0">Created By Jalal Amourgha</h6>
-    </div>
 </body>
+<script src="js/main.js"></script>
 <script src="js/all.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-
+<script src="https://kit.fontawesome.com/97220a04d8.js" crossorigin="anonymous"></script>
 
 </html>
