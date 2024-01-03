@@ -60,3 +60,4 @@ window.addEventListener("resize", handleResize);
 
 // Call the handleResize function once to log the initial screen width
 handleResize();
+
