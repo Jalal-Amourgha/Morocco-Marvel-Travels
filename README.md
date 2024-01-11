@@ -1,8 +1,8 @@
-# **Visit Morocco** 🇲🇦
+# **Morocco Marvel Travels** 🇲🇦
 
 ## **Overview**
 
-"Visit Morocco" is a website dedicated to showcasing the rich culture, best cities, and features of Morocco. Explore the vibrant cities, learn about Moroccan traditions and cuisine, reviews, and browse through a captivating gallery of images.
+"Morocco Marvel Travels" is a website dedicated to showcasing the rich culture, best cities, and features of Morocco. Explore the vibrant cities, learn about Moroccan traditions and cuisine, reviews, and browse through a captivating gallery of images.
 
 ## **Features**
 
@@ -19,13 +19,13 @@
 
 ## **Sections**
 
-### **1. Best Cities**
+### **1. Explore Experiences**
 
-Discover the top cities to visit in Morocco, each offering a unique blend of history, architecture, and local experiences.
+Discover the top Experiences that you can do in Morocco, each offering a unique experience.
 
-### **2. Cultural Features**
+### **2. About us**
 
-Learn about the diverse features that define Moroccan culture, from the world-renowned cuisine to important safety tips for travelers.
+Learn about us that and services that we provie, from achievements, booking, tour guide, Customer Support and Partnerships.
 
 ### **3. User Reviews**
 
@@ -39,6 +39,7 @@ Browse through a captivating gallery of images that showcase the breathtaking la
 
 - HTML5
 - CSS3
+- JavaScript
 - Bootstrap
 
 ## **Screenshots** ##
@@ -52,5 +53,4 @@ Browse through a captivating gallery of images that showcase the breathtaking la
   <img src="https://media.discordapp.net/attachments/584650557688512533/1195030602597027920/m5.PNG?ex=65b281fa&is=65a00cfa&hm=8cfa5a0c5ac4cf14589e414d6a10d61741692456c8fb6f405a4a1199111e90d9&=&format=webp&quality=lossless&width=736&height=417" width="450" />
   <img src="https://media.discordapp.net/attachments/584650557688512533/1195030602936758292/m6.PNG?ex=65b281fa&is=65a00cfa&hm=92bec258dbfa78156a774591916b2212fbf2f22bb3e8310744e4cff5c99e4a4e&=&format=webp&quality=lossless&width=737&height=417" width="450" />
   <img src="https://media.discordapp.net/attachments/584650557688512533/1195030603217772644/m7.PNG?ex=65b281fa&is=65a00cfa&hm=caf689505d99e6435b1eeae0c9603786b26686ca66d6c4379f98cca8d48cc643&=&format=webp&quality=lossless&width=738&height=417" width="450" />
-  
 </div>
