@@ -43,8 +43,14 @@ Browse through a captivating gallery of images that showcase the breathtaking la
 
 ## **Screenshots** ##
 
-<div align="center">
-  <img src="https://media.discordapp.net/attachments/584650557688512533/1176995709183082526/project_2.PNG?ex=6570e5ac&is=655e70ac&hm=ffdf3e8dc886ea1c27aafdc0f2f6efac8dc9a9eea0208a9e5694c54cbaa6a9c6&=&format=webp&width=742&height=417" width="400" height="220"/>
-  <img src="https://media.discordapp.net/attachments/584650557688512533/1176995709581545583/project_3.PNG?ex=6570e5ac&is=655e70ac&hm=50d4015678642523df40f5bbcc317c9d8954ec4ec3e57163d4d6c11ee41910a6&=&format=webp&width=927&height=417" width="400" height="220"/>
-  <img src="https://media.discordapp.net/attachments/584650557688512533/1176995708646207518/project_4.PNG?ex=6570e5ac&is=655e70ac&hm=335c1b4ded1f7ddcafaa34f00fb71c7e3ad1a3c5b7f9992867aff9540795d53d&=&format=webp&width=892&height=417" width="400" height="220"/>
+<div>
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030799976771614/project_1.PNG?ex=65b28229&is=65a00d29&hm=2bb75212e6413fc33f27cecf458d314ae436923a1da0a65f7e54fc12b9c1898f&=&format=webp&quality=lossless&width=742&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030731966132345/m1.PNG?ex=65b28219&is=65a00d19&hm=5632d801776cfa0c06afcf66e8c4bf9e4832ef3900b37fced6787be0a46b8676&=&format=webp&quality=lossless&width=737&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030732591075370/m2.PNG?ex=65b28219&is=65a00d19&hm=b50fb4a254df3d9269e1b06615a96de66d398bc0d0c62c437235ed16880bf3ed&=&format=webp&quality=lossless&width=737&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030731618001006/m3.PNG?ex=65b28219&is=65a00d19&hm=fa72c2567cc1a8d4744395d5626455262b1ea41031b2327265c05aaaecc8e0d9&=&format=webp&quality=lossless&width=738&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030602060144681/m4.PNG?ex=65b281fa&is=65a00cfa&hm=34f305edc3875ac1dd433963a3f8a4a256357051a3d71ca419f5b4c12609b13e&=&format=webp&quality=lossless&width=736&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030602597027920/m5.PNG?ex=65b281fa&is=65a00cfa&hm=8cfa5a0c5ac4cf14589e414d6a10d61741692456c8fb6f405a4a1199111e90d9&=&format=webp&quality=lossless&width=736&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030602936758292/m6.PNG?ex=65b281fa&is=65a00cfa&hm=92bec258dbfa78156a774591916b2212fbf2f22bb3e8310744e4cff5c99e4a4e&=&format=webp&quality=lossless&width=737&height=417" width="450" />
+  <img src="https://media.discordapp.net/attachments/584650557688512533/1195030603217772644/m7.PNG?ex=65b281fa&is=65a00cfa&hm=caf689505d99e6435b1eeae0c9603786b26686ca66d6c4379f98cca8d48cc643&=&format=webp&quality=lossless&width=738&height=417" width="450" />
+  
 </div>
