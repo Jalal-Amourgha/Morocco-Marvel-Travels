@@ -1,0 +1,33 @@
+.subscribe {
+  p {
+    max-width: 600px;
+    margin: auto !important;
+  }
+  .subscribe-box {
+    max-width: 750px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.459) 0px 3px 8px;
+    border-radius: 10px;
+    input {
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      padding: 25px 15px;
+      font-size: 20px;
+      width: 100%;
+      margin: auto;
+    }
+    span {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: $color;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 15px;
+      border-radius: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}

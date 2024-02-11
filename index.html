@@ -5,19 +5,18 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/css.css" />
-  <link rel="icon" href="images/icon.png">
-  <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css.map" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="icon" href="./src/images/icon.png">
+  <link rel="stylesheet" href="./src/css/all.min.css" />
+  <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
   <title>Morocco Marvel Travels</title>
 </head>
 
 <body>
   <!-- N A V B A R -->
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" /></a>
+      <a class="navbar-brand" href="#"><img src="./src/images/logo.png" alt="logo" /></a>
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -25,12 +24,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav text-center ms-auto mb-2 mb-lg-0">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#experience">Experiences</a></li>
-          <li><a href="#packages">Packages</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="./src/index.php">Home</a></li>
+          <li><a href="./src/pages/about.php">About</a></li>
+          <li><a href="./src/pages/packages.php">Packages</a></li>
+          <li><a href="./src/pages/book.php">Book</a></li>
+          <li><a href="./src/pages/contact.php">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -39,7 +37,7 @@
   <!-- V I D E O - S E C T I O N -->
   <div class="video-cover" id="home">
     <div class="video-box">
-      <video src="video/video.mp4" muted autoplay loop></video>
+      <video src="./src/video/video.mp4" muted autoplay loop></video>
     </div>
     <div class="titles d-flex justify-content-center align-items-center text-center">
       <div class="text-light ">
@@ -51,17 +49,78 @@
     </div>
   </div>
 
+  <!-- S E R V I C E S - S E C T I O N -->
+  <section class="services m-100">
+    <div class="container">
+      <div class="title-section">
+        <h1>Our Services</h1>
+        <p>Unlock Your Adventures: Explore Our Premier Travel Services</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/mountains.png" alt="mountains icon">
+            <h4>Adventure</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/map.png" alt="map icon">
+            <h4>Tour Guide</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/booking.png" alt="booking icon">
+            <h4>Flight Bookings</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/rent.png" alt="rent icon">
+            <h4>Car Rentals</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/insurance.png" alt="insurance icon">
+            <h4>Travel Insurance</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/hotel.png" alt="hotel icon">
+            <h4>Hotel Reservations</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/currency.png" alt="currency icon">
+            <h4>Currency Exchange</h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="service-box">
+            <img src="./src/images/wifi.png" alt="wifi icon">
+            <h4>Wi-Fi Devices</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- E X P E R I E N C E - S E C T I O N -->
   <section class="experiences m-100" id="experience">
     <div class="container">
       <div class="title-section">
-        <h1>Explore wonderful Experiences</h1>
+        <h1>Experiences</h1>
+        <p>Explore wonderful Experiences</p>
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 1.jpg" class="img-fluid">
+              <img src="./src/images/experience 1.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Camel Ride</h4>
@@ -72,7 +131,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 2.jpg" class="img-fluid">
+              <img src="./src/images/experience 2.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Explore Jemaa el-Fnaa</h4>
@@ -83,7 +142,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 3.jpg" class="img-fluid">
+              <img src="./src/images/experience 3.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Moroccan Architecture</h4>
@@ -94,7 +153,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 4.jpg" class="img-fluid">
+              <img src="./src/images/experience 4.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Hiking</h4>
@@ -105,7 +164,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 5.jpg" class="img-fluid">
+              <img src="./src/images/experience 5.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Blue City</h4>
@@ -116,7 +175,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 6.jpg" class="img-fluid">
+              <img src="./src/images/experience 6.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Air Balloon</h4>
@@ -127,7 +186,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 7.jpg" class="img-fluid">
+              <img src="./src/images/experience 7.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Moroccan Food</h4>
@@ -138,7 +197,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 col-xsm-12 mb-4">
           <div class="card-box">
             <div class="img-box">
-              <img src="images/experience 8.jpg" class="img-fluid">
+              <img src="./src/images/experience 8.jpg" class="img-fluid">
             </div>
             <div class="img-details">
               <h4 class="fw-bolder">Kitesurfing</h4>
@@ -161,7 +220,7 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
           <div class="package-box  position-relative">
             <div class="img-overlay"></div>
-            <img src="images/package 1.jpg">
+            <img src="./src/images/package 1.jpg">
             <div class="img-details">
               <h4>Marrakesh</h4>
               <div class="d-flex justify-content-between">
@@ -174,7 +233,7 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
           <div class="package-box position-relative">
             <div class="img-overlay"></div>
-            <img src="images/pakckage 2.jpg">
+            <img src="./src/images/pakckage 2.jpg">
             <div class="img-details">
               <h4>Fez</h4>
               <div class="d-flex justify-content-between">
@@ -187,7 +246,7 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
           <div class="package-box position-relative">
             <div class="img-overlay"></div>
-            <img src="images/package 3.jpg">
+            <img src="./src/images/package 3.jpg">
             <div class="img-details">
               <h4>Merzouga</h4>
               <div class="d-flex justify-content-between">
@@ -200,7 +259,7 @@
         <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
           <div class="package-box position-relative">
             <div class="img-overlay"></div>
-            <img src="images/package 4.jpg">
+            <img src="./src/images/package 4.jpg">
             <div class="img-details">
               <h4>Chefchaouen</h4>
               <div class="d-flex justify-content-between">
@@ -213,281 +272,11 @@
         </div>
       </div>
       <div class="text-center mt-5">
-        <button>Explore More <i class="fa-solid fa-arrow-right"></i></button>
+        <a href="./src/pages/packages.php" class="arrow-btn">Explore More <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
   </section>
 
-  <!-- A B O U T - S E C T I O N -->
-  <section class="about m-100" id="about">
-    <div class="container">
-      <div class="title-section">
-        <h1>About us</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
-          <div class="about-box">
-            <i class="fa-solid fa-ranking-star"></i>
-            <h4 class="fw-bold mb-4">Achievements</h4>
-            <p class="fw-normal">Discover the accolades that define us At Morocco Marvel Travels. Our achievements,
-              from
-              industry awards to glowing
-              client testimonials, showcase our commitment to excellence in crafting unforgettable travel experiences.
-              Join us and
-              experience the difference of choosing a travel agency with a proven track record of success."</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
-          <div class="about-box">
-            <i class="fa-solid fa-users"></i>
-            <h4 class="fw-bold mb-4">Travelers</h4>
-            <p class="fw-normal">Trust a travel agency with a proven track record. Morocco Marvel Travels has garnered
-              accolades and positive reviews,
-              showcasing our commitment to delivering exceptional travel experiences. Read testimonials from satisfied
-              clients who
-              have made lasting memories with us.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
-          <div class="about-box">
-            <i class="fa-solid fa-calendar-days"></i>
-            <h4 class="fw-bold mb-4">Booking</h4>
-            <p class="fw-normal">Your journey begins with ease at Morocco Marvel Travels. Experience the simplicity and
-              efficiency of our booking
-              process, whether you choose our intuitive online platform, user-friendly app, or personalized assistance
-              from our expert
-              travel consultants.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
-          <div class="about-box">
-            <i class="fa-solid fa-person-military-pointing"></i>
-            <h4 class="fw-bold mb-4">Tour Guide</h4>
-            <p class="fw-normal">Join us on a journey towards sustainable and responsible tourism. At Morocco Marvel
-              Travels , we are committed to minimizing our environmental impact, promoting eco-friendly travel options,
-              and contributing to the
-              communities we
-              visit.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
-          <div class="about-box">
-            <i class="fa-solid fa-headset"></i>
-            <h4 class="fw-bold mb-4">Customer Support</h4>
-            <p class="fw-normal">In our Agency, commitment to exceptional customer
-              service is unwavering. From transparent pricing to 24/7 support, we prioritize your needs at every step,
-              ensuring a
-              seamless and enjoyable travel planning process.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-xsm12 mb-4">
-          <div class="about-box">
-            <i class="fa-solid fa-handshake"></i>
-            <h4 class="fw-bold mb-4">Partnerships</h4>
-            <p class="fw-normal">Elevate your travel experience with exclusive partnerships forged by Morocco Marvel
-              Travels. Gain access to top-tier hotels, airlines, and tour operators, securing not only exceptional
-              service but also exclusive deals and
-              perks that make
-              your journey extraordinary.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-  </section>
-
-  <!-- Q U E S T I O N S - S E C T I O N -->
-  <section class="questions m-100">
-    <div class="container">
-      <div class="text-center">
-        <h1>Frequently Asked Questions</h1>
-        <p>Find out why our customers can not stop raving about social media booster platform. Read their testimonials
-          and join
-          the journey to success today.</p>
-      </div>
-      <div class="question">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-          <h4>What services does your travel agency offer?</h4>
-          <button>
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-        </div>
-        <div class="answear" id="answear1">
-          We offer a wide range of services, including customized travel itineraries, flight and hotel bookings,
-          transportation
-          arrangements, and assistance with travel documentation.
-        </div>
-      </div>
-      <div class="question">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-          <h4>How do I book a vacation package with your agency?</h4>
-          <button>
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-        </div>
-        <div class="answear" id="answear2">
-          Booking with us is easy! You can browse our website for available packages and use our secure online booking
-          system.
-          Alternatively, you can contact our experienced travel consultants for personalized assistance.
-        </div>
-      </div>
-      <div class="question">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-          <h4>Can your agency help with visa applications and travel insurance?</h4>
-          <button>
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
-        </div>
-        <div class="answear" id="answear3">
-          Yes, we provide assistance with visa applications and can recommend suitable travel insurance options to
-          ensure a
-          worry-free journey.
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- R E V I E W S - S E C T I O N -->
-  <section class="reviews m-100" id="reviews">
-    <div class="container">
-      <div class="title-section">
-        <h1>What our clients say about us</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-          <div class="review-box">
-            <div class="review-details">
-              <i class="fa-solid fa-quote-left"></i>
-              <p class="position-relative z-3">I recently booked a vacation package with Morocco Marvel Travels, and I
-                couldn't be happier with the service. The travel
-                consultants were friendly, knowledgeable, and helped me create the perfect itinerary. Thanks to them, my
-                vacation was
-                stress-free and absolutely amazing!</p>
-            </div>
-            <div class="review-img">
-              <svg class="wave" viewBox="0 0 80 150" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none">
-                <path d="M0 50 Q 20 20, 40 50 T 80 50 V 150 H 0 Z" fill="#0c195c" />
-              </svg>
-              <div class="text-center position-relative z-3 text-white">
-                <img src="images/person2.jpg" alt="">
-                <h4 class="mt-4">Emily Rodriguez</h4>
-                <div class="d-flex justify-content-center">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-          <div class="review-box">
-            <div class="review-details">
-              <i class="fa-solid fa-quote-left"></i>
-              <p class="position-relative z-3">Booking my trip with Morocco Marvel Travels was a breeze. The website is
-                user-friendly, and the booking process was smooth.
-                Plus, I got a fantastic discount on my package! I highly recommend this agency for hassle-free travel
-                planning.</p>
-            </div>
-            <div class="review-img">
-              <svg class="wave" viewBox="0 0 80 150" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none">
-                <path d="M0 50 Q 20 20, 40 50 T 80 50 V 150 H 0 Z" fill="#0c195c" />
-              </svg>
-              <div class="text-center position-relative  z-3 text-white">
-                <img src="images/person1.jpg" alt="">
-                <h4 class="mt-4">Daniel Foster</h4>
-                <div class="d-flex justify-content-center">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star-half-stroke"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-          <div class="review-box">
-            <div class="review-details">
-              <i class="fa-solid fa-quote-left"></i>
-              <p class="position-relative z-3">What sets Morocco Marvel Travels apart is their exceptional customer
-                support. I had a few questions and needed assistance
-                with my travel plans, and their team was available 24/7 to help. It's great to know that they prioritize
-                their
-                customers' needs.</p>
-            </div>
-            <div class="review-img">
-              <svg class="wave" viewBox="0 0 80 150" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="none">
-                <path d="M0 50 Q 20 20, 40 50 T 80 50 V 150 H 0 Z" fill="#0c195c" />
-              </svg>
-              <div class="text-center position-relative  z-3 text-white">
-                <img src="images/person3.jpg">
-                <h4 class="mt-4">Alex Carter</h4>
-                <div class="d-flex justify-content-center">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- C O N T A C T - S E C T I O N -->
-  <section class="contact m-100" id="contact">
-    <div class="title-section">
-      <h1>Contact us</h1>
-    </div>
-    <div class="container position-relative">
-      <div class="contact-boxes">
-        <div class="contact-information">
-          <h1 class="text-light mb-5">Contact us</h1>
-          <div class="d-flex align-items-center mb-5">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>32, Avenue Mohamed Khamis <br>93000 Tetouan,Morocco</p>
-          </div>
-          <div class="d-flex align-items-center mb-5">
-            <i class="fa-regular fa-envelope"></i>
-            <p>MoroccoTravel@hotmail.fr</p>
-          </div>
-          <div class="d-flex align-items-center mb-5">
-            <i class="fa-solid fa-phone"></i>
-            <p>+212 666 777 888</p>
-          </div>
-          <div class="d-flex align-items-center mb-5">
-            <i class="fa-solid fa-fax"></i>
-            <p>+212 666 777 888</p>
-          </div>
-        </div>
-        <div class="contact-box">
-          <h1>Get in Touch</h1>
-          <p>We'd love to recive message from you.</p>
-          <form action="https://formsubmit.co/2bb4b50d4b3676e79e3d46764fbce9e8" method="POST">
-            <div>
-              <input type="text" name="Name" placeholder="Full Name" required />
-            </div>
-            <div>
-              <input type="email" name="Email" placeholder="Email" required />
-            </div>
-            <textarea name="Message" rows="5" placeholder="Message" required></textarea>
-            <br />
-            <button type="submit">Send</button>
-          </form>
-          <span class="arrow"></span>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- S U B S C R I B E - S E C T I O N -->
   <section class="subscribe m-100">
@@ -510,22 +299,22 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
-          <img src="images/sponsor1.png" alt="sponsor">
+          <img src="./src/images/sponsor1.png" alt="sponsor">
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
-          <img src="images/sponsor2.png" alt="sponsor">
+          <img src="./src/images/sponsor2.png" alt="sponsor">
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
-          <img src="images/sponsor3.png" alt="sponsor">
+          <img src="./src/images/sponsor3.png" alt="sponsor">
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
-          <img src="images/sponsor4.png" alt="sponsor">
+          <img src="./src/images/sponsor4.png" alt="sponsor">
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
-          <img src="images/sponsor5.png" alt="sponsor">
+          <img src="./src/images/sponsor5.png" alt="sponsor">
         </div>
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 d-flex mb-3">
-          <img src="images/sponsor6.png" alt="sponsor">
+          <img src="./src/images/sponsor6.png" alt="sponsor">
         </div>
       </div>
     </div>
@@ -538,7 +327,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-2 col-md-4 col-sm-6  mb-3">
-          <img src="images/footer-logo.png" alt="logo">
+          <img src="./src/images/footer-logo.png" alt="logo">
           <p>Morocco Marvel Travels it'an agency for trips.</p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6 mb-3">
@@ -615,9 +404,9 @@
   </section>
 
 </body>
-<script src="js/main.js"></script>
-<script src="js/all.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://kit.fontawesome.com/97220a04d8.js" crossorigin="anonymous"></script>
+<script src="./src/js/main.js"></script>
+<script src="./src/js/all.min.js"></script>
+<script src="./src/js/bootstrap.bundle.min.js"></script>
+<script src="./src/https://kit.fontawesome.com/97220a04d8.js" crossorigin="anonymous"></script>
 
 </html>

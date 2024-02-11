@@ -5,6 +5,8 @@ let show = false;
 // Create screen width
 let screenWidth = 0;
 
+let moreBtn = document.getElementById("moreBtn");
+
 // Function for handle show answear
 buttons.forEach((btn) =>
   btn.addEventListener("click", function () {
@@ -25,21 +27,17 @@ buttons.forEach((btn) =>
     // Showing the box
     if (document.getElementById(`${selectBox}`).style.display !== "inline") {
       document.getElementById(`${selectBox}`).style.display = "inline";
-      if (screenWidth < 769) {
-        btn.style.height = "200px";
-      } else {
-        btn.style.height = "130px";
-      }
+
+      btn.style.height = "fit-content";
+
       document
         .getElementById(`${selectBox}`)
         .parentElement.classList.add("show");
     } else {
       document.getElementById(`${selectBox}`).style.display = "none";
-      if (screenWidth < 991) {
-        btn.style.height = "100px";
-      } else {
-        btn.style.height = "70px";
-      }
+
+      btn.style.height = "fit-content";
+
       document
         .getElementById(`${selectBox}`)
         .parentElement.classList.remove("show");
@@ -61,3 +59,13 @@ window.addEventListener("resize", handleResize);
 // Call the handleResize function once to log the initial screen width
 handleResize();
 
+// More Packages Fucntion
+function morePackages() {
+  document.getElementById("morePackages").classList.remove("d-none");
+  document.getElementById("showMoreBtn").classList.add("d-none");
+}
+
+window.addEventListener("scroll", function () {
+  var header = document.querySelector("nav");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});

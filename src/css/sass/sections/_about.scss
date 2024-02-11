@@ -1,0 +1,24 @@
+.about {
+
+  .col-lg-4:nth-child(odd) div {
+    background: $color;
+    color: white;
+  }
+  .col-lg-4:nth-child(even) div {
+    border: 3px solid $color;
+    background: #eee;
+    color: $color;
+  }
+  .about-box {
+    padding: 25px 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.4s;
+    cursor: pointer;
+    height: 100%;
+    svg {
+      font-size: 3rem;
+      margin-bottom: 25px;
+    }
+  }
+}

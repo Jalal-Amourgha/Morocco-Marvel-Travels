@@ -1,0 +1,27 @@
+.video-cover {
+  height: 100vh;
+  width: 100%;
+  .video-box {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.461);
+    }
+    video {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .titles {
+    height: 100vh;
+  }
+}

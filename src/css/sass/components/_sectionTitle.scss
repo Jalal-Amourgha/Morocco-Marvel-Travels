@@ -1,0 +1,11 @@
+.title-section {
+  margin: 60px 0px;
+  color: $color;
+  text-align: center;
+  h1 {
+    font-size: 45px;
+    @media (max-width: 550px) {
+      font-size: 35px;
+    }
+  }
+}
