@@ -1,50 +1,61 @@
-# **Visit Morocco** 🇲🇦
+# **Morocco Marvel Travels**
 
 ## **Overview**
 
-"Visit Morocco" is a website dedicated to showcasing the rich culture, best cities, and features of Morocco. Explore the vibrant cities, learn about Moroccan traditions and cuisine, reviews, and browse through a captivating gallery of images.
+This repository contains the codebase for our travel agency website. Our website provides information about our services, showcases customer reviews, presents details about our company, offers a contact form for inquiries, displays various travel packages, and allows users to book their desired trips.
 
 ## **Features**
 
-- **Best Cities:** Discover the best cities to visit in Morocco, each with its unique charm and attractions.
-- **Cultural Features:** Explore various features such as Moroccan cuisine, safety tips, and other aspects of the country's rich culture.
-- **User Reviews:** Read reviews from visitors who have experienced the beauty of Morocco firsthand.
-- **Gallery:** Immerse yourself in the visual allure of Morocco through a carefully curated image gallery.
-
-
-### **Access the Website**
-
-1. Visit the website click <a href="https://visit-morocco.onrender.com" target="_blank">here</a>
-2. Navigate through the different sections to explore the best of Morocco.
-
-## **Sections**
-
-### **1. Best Cities**
-
-Discover the top cities to visit in Morocco, each offering a unique blend of history, architecture, and local experiences.
-
-### **2. Cultural Features**
-
-Learn about the diverse features that define Moroccan culture, from the world-renowned cuisine to important safety tips for travelers.
-
-### **3. User Reviews**
-
-Read authentic reviews from visitors who have explored Morocco and gain insights into their experiences.
-
-### **4. Gallery**
-
-Browse through a captivating gallery of images that showcase the breathtaking landscapes, architecture, and culture of Morocco.
+- **Service Information:** Users can explore detailed information about the services we offer, including various travel packages tailored to different preferences and budgets.
+- **Customer Reviews:** The website features authentic customer reviews and testimonials to build trust and credibility.
+- **About Us:** Our company's mission, vision, and values are outlined, providing users with insights into who we are and what we stand for.
+- **Contact Form:** Users can easily get in touch with us using the contact form provided on the website.
+- **Package Booking:** Users have the option to book their preferred travel packages directly through our website for a seamless experience.
 
 ## **Technologies Used**
 
-- HTML5
-- CSS3
-- Bootstrap
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Frameworks:** Bootstrap, SASS
 
-## **Screenshots** ##
+## **Getting Started**
 
-<div align="center">
-  <img src="https://media.discordapp.net/attachments/584650557688512533/1176995709183082526/project_2.PNG?ex=6570e5ac&is=655e70ac&hm=ffdf3e8dc886ea1c27aafdc0f2f6efac8dc9a9eea0208a9e5694c54cbaa6a9c6&=&format=webp&width=742&height=417" width="400" height="220"/>
-  <img src="https://media.discordapp.net/attachments/584650557688512533/1176995709581545583/project_3.PNG?ex=6570e5ac&is=655e70ac&hm=50d4015678642523df40f5bbcc317c9d8954ec4ec3e57163d4d6c11ee41910a6&=&format=webp&width=927&height=417" width="400" height="220"/>
-  <img src="https://media.discordapp.net/attachments/584650557688512533/1176995708646207518/project_4.PNG?ex=6570e5ac&is=655e70ac&hm=335c1b4ded1f7ddcafaa34f00fb71c7e3ad1a3c5b7f9992867aff9540795d53d&=&format=webp&width=892&height=417" width="400" height="220"/>
+
+### **Installation**
+
+1. Clone the repository:
+
+```bash
+bashCopy code
+git clone https://github.com/jalal-amourgha/Morocco-Marvel-Travels.git
+
+```
+
+1. Navigate to the project directory:
+
+```bash
+bashCopy code
+cd morocco-marvel-travels
+
+```
+
+
+## **Usage**
+
+Once the application is running, navigate to **`http://localhost:3000`** in your web browser to access the website. From there, users can explore the various features, browse packages, read reviews, and book their desired trips.
+
+## **Contributing**
+
+We welcome contributions from the community. If you find any bugs or have suggestions for improvements, please contact me on Linkedin.
+
+
+## **Screenshots**
+<div>
+<img src="https://media.discordapp.net/attachments/584650557688512533/1195030799976771614/project_1.PNG?ex=65d76c29&is=65c4f729&hm=a86b4a3f8b5d02d042c81d84db68ab03703a0fd25e1a79160e9ae8297ec40ae2&=&format=webp&quality=lossless&width=742&height=417" width="300" />
+<img src="https://media.discordapp.net/attachments/584650557688512533/1195030731966132345/m1.PNG?ex=65d76c19&is=65c4f719&hm=78f1e05ce9e27b759b3a234ebb2dc956c4a5a7c78fe8b37f8c653f980fb39178&=&format=webp&quality=lossless&width=737&height=417" width="300"/>
+<img src="https://media.discordapp.net/attachments/584650557688512533/1195030732591075370/m2.PNG?ex=65d76c19&is=65c4f719&hm=d166c3e179a467eef757f83b588130d8384f96e3efbfe82d9b1e7c5d2c4d2d09&=&format=webp&quality=lossless&width=737&height=417" width="300"/>
+<img src="https://media.discordapp.net/attachments/584650557688512533/1195030602597027920/m5.PNG?ex=65d76bfa&is=65c4f6fa&hm=7f30fb96b3cb7271bce36ff78ff79aeaf19e4e9ec26ca6ec93bb7680a7ec02bd&=&format=webp&quality=lossless&width=736&height=417" width="300"/>
+<img src="https://media.discordapp.net/attachments/584650557688512533/1195030731618001006/m3.PNG?ex=65d76c19&is=65c4f719&hm=967b615301c2a5b183c007e08a79ba3943f7c29344c771961f6ed147b4f24242&=&format=webp&quality=lossless&width=738&height=417" width="300"/>
+<img src="https://media.discordapp.net/attachments/584650557688512533/1195030603217772644/m7.PNG?ex=65d76bfa&is=65c4f6fa&hm=dbc5c1c61b29c327a73dd70aa5dc34f29575552bcd2867fe73949cf650f5564a&=&format=webp&quality=lossless&width=738&height=417" width="300"/>
 </div>
