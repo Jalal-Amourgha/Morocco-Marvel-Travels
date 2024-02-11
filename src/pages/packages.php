@@ -58,7 +58,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 col-12 mb-4">
             <div class="package-box">
-              <img src="../images/marrakech.jpg" class="img-fluid" alt="marrakech">
+              <img src="../images/marrakech.jpg" loading="lazy class="img-fluid" alt="marrakech">
               <div class="text-center mt-4 mb-4">
                 <h3 class="color">Merrakech</h3>
                 <p>Discover the Magic of Marrakech: A Vibrant Blend of History and Culture</p>
@@ -68,7 +68,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-4">
             <div class="package-box">
-              <img src="../images/tetouan.jpg" class="img-fluid" alt="tetouan">
+              <img src="../images/tetouan.jpg" loading="lazy class="img-fluid" alt="tetouan">
               <div class="text-center mt-4 mb-4">
                 <h3 class="color">Tetouan</h3>
                 <p>Gateway to the Rif Mountains, Where History and Scenic Beauty Unite</p>
@@ -78,7 +78,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-4">
             <div class="package-box">
-              <img src="../images/chefchaouen.jpg" class="img-fluid" alt="chefchaouen">
+              <img src="../images/chefchaouen.jpg" loading="lazy class="img-fluid" alt="chefchaouen">
               <div class="text-center mt-4 mb-4">
                 <h3 class="color">Chefchaouen</h3>
                 <p>The Blue Pearl. Immerse Yourself in Chefchaouen's Charming Blue-Hued Medina</p>
@@ -88,7 +88,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-4">
             <div class="package-box">
-              <img src="../images/merzouga.jpg" class="img-fluid" alt="merzouga">
+              <img src="../images/merzouga.jpg" loading="lazy class="img-fluid" alt="merzouga">
               <div class="text-center mt-4 mb-4">
                 <h3 class="color">Merzouga</h3>
                 <p>Sahara's Gateway, Where Endless Dunes and Desert Adventures Await</p>
@@ -98,7 +98,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-4">
             <div class="package-box">
-              <img src="../images/fez.jpg" class="img-fluid" alt="Fez">
+              <img src="../images/fez.jpg" loading="lazy class="img-fluid" alt="Fez">
               <div class="text-center mt-4 mb-4">
                 <h3 class="color">Fez</h3>
                 <p>Step into the Past: Explore the Ancient Medina of Fez, Morocco's Spiritual Heart</p>
@@ -108,7 +108,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-12 mb-4">
             <div class="package-box">
-              <img src="../images/kasbah.jpg" class="img-fluid" alt="Kasbah">
+              <img src="../images/kasbah.jpg" loading="lazy class="img-fluid" alt="Kasbah">
               <div class="text-center mt-4 mb-4">
                 <h3 class="color">Kasbah</h3>
                 <p>Discover Historic Kasbahs: Where Ancient Fortresses Guard Tales of Culture
@@ -123,7 +123,7 @@
       <div class="row mt-3 d-none" id="morePackages">
         <div class="col-lg-4 col-md-6 col-12 mb-4">
           <div class="package-box">
-            <img src="../images/rabat.jpg" class="img-fluid" alt="rabat">
+            <img src="../images/rabat.jpg" loading="lazy class="img-fluid" alt="rabat">
             <div class="text-center mt-4 mb-4">
               <h3 class="color">Rabat</h3>
               <p>Capital Splendor: Discover Rabat's Historic Treasures and Modern Elegance</p>
@@ -133,7 +133,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
           <div class="package-box">
-            <img src="../images/martil.jpg" class="img-fluid" alt="martil">
+            <img src="../images/martil.jpg" loading="lazy class="img-fluid" alt="martil">
             <div class="text-center mt-4 mb-4">
               <h3 class="color">Martil</h3>
               <p>Coastal Haven with Mediterranean Charms and Moroccan Hospitality</p>
@@ -143,7 +143,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-4">
           <div class="package-box">
-            <img src="../images/legzira.jpg" class="img-fluid" alt="lgzira">
+            <img src="../images/legzira.jpg" loading="lazy class="img-fluid" alt="lgzira">
             <div class="text-center mt-4 mb-4">
               <h3 class="color">Lgzira</h3>
               <p>Where Dramatic Cliffs Meet Azure Waters, A Hidden Gem Along Morocco's Coastline</p>
