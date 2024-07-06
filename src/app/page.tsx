@@ -34,8 +34,8 @@ export default function Home() {
       </div>
 
       {/* Download Our App - Section */}
-      <div className=" bg-mobile-bg container relative z-10  w-full bg-center bg-cover bg-no-repeat h-[600px] lg:h-[450px] bg-primary rounded-2xl grid grid-cols-1 lg:grid-cols-2 gap-10 overflow-hidden  mt-100">
-        <div className="flex lg:items-center text-white md:pl-10 mt-10 lg:mt-0">
+      <div className="md:bg-mobile-bg container relative z-10  w-full bg-center bg-cover bg-no-repeat h-fit md:h-[450px] p-10 md:p-0 bg-primary rounded-2xl grid grid-cols-1 lg:grid-cols-2 gap-10 overflow-hidden  mt-100">
+        <div className="flex lg:items-center text-white md:pl-10 md:mt-10 lg:mt-0">
           <div>
             <h1 className="text-3xl md:text-5xl font-bold leading-[200%] mb-10">
               Download Our App
@@ -62,8 +62,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="relative">
-          <div className="hidden md:block absolute bottom-[-200px] right-[350px]">
+        <div className="hidden lg:block">
+          <div className="absolute bottom-[-200px] right-[350px]">
             <Image
               src={phone2}
               width={250}
@@ -97,10 +97,10 @@ export default function Home() {
         <div className="max-w-[600px] w-full flex relative mx-auto mt-10 ">
           <input
             type="text"
-            className="w-full p-5 bg-white text-xl rounded-full"
+            className="w-full p-3  md:p-5 bg-white text-base rounded-full"
             placeholder="Enter Your Email Address"
           />
-          <button className="bg-primary text-white font-medium text-xl p-3 rounded-full absolute top-2 right-2">
+          <button className="bg-primary text-white font-medium text-base p-2 md:p-3 rounded-full absolute top-1 right-1">
             Subscribe
           </button>
         </div>

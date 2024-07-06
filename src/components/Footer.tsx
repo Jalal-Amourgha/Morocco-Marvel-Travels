@@ -46,6 +46,7 @@ const methods = [
 const Footer = () => {
   return (
     <>
+      {/* Sponsors - Section */}
       <div className="container grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mt-100 mb-10">
         {sponsors.map((item) => (
           <div key={item.id}>
@@ -57,9 +58,11 @@ const Footer = () => {
           </div>
         ))}
       </div>
+
+      {/* Footer - Section */}
       <footer className="py-10 border-t-1 border-gray-2 container  text-gray-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 mb-10">
-          <div>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 lg:gap-0 mb-10">
+          <div className="col-span-2 md:col-span-1">
             <Image
               src={footerLogo}
               className="max-w-[160px]"
@@ -81,7 +84,7 @@ const Footer = () => {
               </ul>
             </div>
           ))}
-          <div>
+          <div className="col-span-2 md:col-span-1">
             <h1 className="text-[22px] font-medium mb-5">Payment Methods</h1>
             <div className="grid grid-cols-5 gap-1">
               {methods.map((item) => (

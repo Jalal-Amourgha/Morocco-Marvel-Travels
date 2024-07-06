@@ -181,7 +181,7 @@ const FilteringBar = () => {
             </div>
           </div>
           <div
-            className="bg-white relative max-w-[800px] max-h-[80vh] overflow-x-hidden overflow-y-scroll w-full p-5 rounded-b-2xl shadow"
+            className="bg-white relative max-w-[800px] max-h-[80vh] overflow-x-hidden overflow-y-scroll w-full p-2 md:p-5 rounded-b-2xl shadow  black__thumb"
             onClick={(e) => {
               e.stopPropagation();
             }}
@@ -233,7 +233,7 @@ const FilteringBar = () => {
                   <div className="flex flex-row gap-2 mt-3">
                     {["Any", "1", "2", "3", "4", "5", "6"].map((item) => (
                       <span
-                        className={`py-2 px-6 border-1 border-gray-3 hover:border-gray-4 text-lg font-medium ${
+                        className={`py-2 px-4 md:px-6 border-1 border-gray-3 hover:border-gray-4 text-lg font-medium ${
                           bedrooms === item
                             ? "bg-gray-4 text-white border-gray-4 "
                             : ""
@@ -251,7 +251,7 @@ const FilteringBar = () => {
                   <div className="flex flex-row gap-2 mt-3">
                     {["Any", "1", "2", "3", "4", "5", "6"].map((item) => (
                       <span
-                        className={`py-2 px-6 border-1 border-gray-3 hover:border-gray-4 text-lg font-medium ${
+                        className={`py-2 px-4 md:px-6 border-1 border-gray-3 hover:border-gray-4 text-lg font-medium ${
                           beds === item
                             ? "bg-gray-4 text-white border-gray-4 "
                             : ""
@@ -269,7 +269,7 @@ const FilteringBar = () => {
                   <div className="flex flex-row gap-2 mt-3">
                     {["Any", "1", "2", "3", "4", "5", "6"].map((item) => (
                       <span
-                        className={`py-2 px-6 border-1 border-gray-3 hover:border-gray-4 text-lg font-medium ${
+                        className={`py-2 px-4 md:px-6 border-1 border-gray-3 hover:border-gray-4 text-lg font-medium ${
                           bathrooms === item
                             ? "bg-gray-4 text-white border-gray-4 "
                             : ""
@@ -293,7 +293,7 @@ const FilteringBar = () => {
               <div className="grid grid-cols-5 border-1 border-gray-3 rounded-lg overflow-hidden mt-5">
                 {[1, 2, 3, 4, 5].map((star, index) => (
                   <div
-                    className={`w-full flex justify-center items-center gap-1 py-5  ${
+                    className={`w-full flex justify-center items-center gap-1 py-2 md:py-5  ${
                       star !== 5 ? "border-e-1 border-gray-3" : ""
                     } ${
                       star === rate ? "bg-gray-4 text-white border-gray-4" : ""
@@ -335,10 +335,10 @@ const FilteringBar = () => {
               <h1 className="text-gray-4 text-2xl font-semibold mb-5">
                 Property type
               </h1>
-              <div className="grid grid-cols-3 gap-5">
+              <div className="grid grid-cols-3 gap-2 md:gap-5">
                 {properties.map((item: any) => (
                   <div
-                    className={`flex flex-col gap-4 p-6 border-1 ${
+                    className={`flex flex-col gap-4 p-3 md:p-6 border-1 ${
                       item.name === property
                         ? "border-gray-4"
                         : "border-gray-1 "

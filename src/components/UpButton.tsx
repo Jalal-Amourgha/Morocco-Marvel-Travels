@@ -32,9 +32,9 @@ export const UpButton = () => {
 
   return (
     <div
-      className={`${
-        showBtn ? "" : "hidden"
-      } fixed bottom-10 right-4 h-14 w-14 flex justify-center items-center bg-primary text-white text-3xl rounded-full cursor-pointer`}
+      className={`hidden  ${
+        showBtn ? " md:flex " : "hidden"
+      } fixed bottom-10 right-4 h-14 w-14 justify-center items-center bg-primary text-white text-3xl rounded-full cursor-pointer`}
       onClick={scrollBack}
     >
       <FaArrowUp />

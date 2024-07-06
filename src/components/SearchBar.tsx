@@ -37,6 +37,7 @@ const SearchBar = () => {
               autoHighlight
               getOptionLabel={(option) => option}
               onChange={(e) => setCitySelected(e.currentTarget.textContent)}
+              className="gray-1"
               renderOption={(props, option) => (
                 <Box
                   component="li"
@@ -95,6 +96,7 @@ const SearchBar = () => {
               type="number"
               // value={1}
               inputProps={{ min: 1, max: 10 }}
+              className="gray-1"
               fullWidth
             />
           </div>

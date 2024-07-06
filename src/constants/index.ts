@@ -70,10 +70,10 @@ export const navLinks = [
 
 export const mobileLinks = [
   { href: "/", label: "Home" },
-  { href: "/discover", label: "Discover" },
-  { href: "/activities", label: "Activities" },
+  { href: "/booking", label: "Booking" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+  { href: "/collection", label: "Collection" },
   { href: "/register", label: "Register" },
   { href: "/sign-in", label: "Sign in" },
 ];

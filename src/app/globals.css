@@ -10,6 +10,26 @@
   --gray-4: #e0e0e0;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+:-webkit-scrollbar-track {
+  background: var(--gray-1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+
+.black__thumb::-webkit-scrollbar-thumb {
+  background-color: var(--gray-3) !important;
+}
+
+.black__thumb:-webkit-scrollbar-track {
+  background: white !important;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -20,6 +40,7 @@
 body {
   background: var(--gray-1);
   overflow-x: hidden;
+  -ms-overflow-style: scrollbar;
 }
 
 .shadow {
