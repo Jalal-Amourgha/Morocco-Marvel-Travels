@@ -77,10 +77,6 @@ const PersonalInformations = ({ data }: { data: any }) => {
     }
   }, [data]);
 
-  useEffect(() => {
-    console.log(birthday, data.birthday);
-  }, [birthday]);
-
   return (
     <div className="text-gray-4">
       <form onSubmit={handleChangeUserInfo} className="flex flex-col gap-5 p-5">

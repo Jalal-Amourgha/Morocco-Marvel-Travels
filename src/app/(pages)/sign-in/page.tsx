@@ -25,7 +25,6 @@ const RegisterPage = () => {
       });
 
       if (res?.ok) {
-        console.log("allo");
         router.push("/profile");
       }
     } catch (error) {

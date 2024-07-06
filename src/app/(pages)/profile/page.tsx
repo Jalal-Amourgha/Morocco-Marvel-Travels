@@ -48,7 +48,6 @@ const ProfilePage = () => {
 
   useEffect(() => {
     if (session?.user?.email || reFetch >= 1) {
-      console.log(session?.user?.email);
       fetchUserData(session?.user?.email as string).then((res) =>
         setUserData(res)
       );

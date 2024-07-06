@@ -111,16 +111,7 @@ const BillingPage = ({ params }: BillingPageProps) => {
       !cardYear ||
       !cardCVV
     ) {
-      return console.log(
-        firstName,
-        lastName,
-        phoneNumber,
-        cardName,
-        cardNumber,
-        cardMonth,
-        cardYear,
-        cardCVV
-      );
+      return;
     }
 
     if (!session?.user?.email) {

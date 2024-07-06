@@ -97,7 +97,7 @@ const PaymentDetails = ({ userData }: { userData: any }) => {
       </div>
       <div className="flex flex-col gap-4 mt-5 text-gray-4 p-4 w-full">
         <h1 className="text-2xl font-bold">Payment Details</h1>
-        <form onSubmit={handleChangePaymentDetails} className="w-full lg:w-2/3">
+        <form onSubmit={handleChangePaymentDetails} className="w-full">
           <div className="mb-5">
             <label className="text-gray-4 font-semibold ">Name on card</label>
             <input

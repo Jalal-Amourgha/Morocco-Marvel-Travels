@@ -46,7 +46,6 @@ const BookingBox = ({ data }: { data: any }) => {
     } else {
       setCollection([item]);
     }
-    // console.log(item);
   };
 
   return (
