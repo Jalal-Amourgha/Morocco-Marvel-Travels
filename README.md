@@ -1,61 +1,36 @@
-# **Morocco Marvel Travels**
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## **Overview**
+## Getting Started
 
-This repository contains the codebase for our travel agency website. Our website provides information about our services, showcases customer reviews, presents details about our company, offers a contact form for inquiries, displays various travel packages, and allows users to book their desired trips.
-
-## **Features**
-
-- **Service Information:** Users can explore detailed information about the services we offer, including various travel packages tailored to different preferences and budgets.
-- **Customer Reviews:** The website features authentic customer reviews and testimonials to build trust and credibility.
-- **About Us:** Our company's mission, vision, and values are outlined, providing users with insights into who we are and what we stand for.
-- **Contact Form:** Users can easily get in touch with us using the contact form provided on the website.
-- **Package Booking:** Users have the option to book their preferred travel packages directly through our website for a seamless experience.
-
-## **Technologies Used**
-
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** PHP
-- **Database:** MySQL
-- **Frameworks:** Bootstrap, SASS
-
-## **Getting Started**
-
-
-### **Installation**
-
-1. Clone the repository:
+First, run the development server:
 
 ```bash
-bashCopy code
-git clone https://github.com/jalal-amourgha/Morocco-Marvel-Travels.git
-
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-1. Navigate to the project directory:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-bashCopy code
-cd morocco-marvel-travels
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Learn More
 
-## **Usage**
+To learn more about Next.js, take a look at the following resources:
 
-Once the application is running, navigate to **`http://localhost:3000`** in your web browser to access the website. From there, users can explore the various features, browse packages, read reviews, and book their desired trips.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## **Contributing**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-We welcome contributions from the community. If you find any bugs or have suggestions for improvements, please contact me on Linkedin.
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## **Screenshots**
-<div>
-<img src="https://media.discordapp.net/attachments/584650557688512533/1195030799976771614/project_1.PNG?ex=65d76c29&is=65c4f729&hm=a86b4a3f8b5d02d042c81d84db68ab03703a0fd25e1a79160e9ae8297ec40ae2&=&format=webp&quality=lossless&width=742&height=417" width="300" />
-<img src="https://media.discordapp.net/attachments/584650557688512533/1195030731966132345/m1.PNG?ex=65d76c19&is=65c4f719&hm=78f1e05ce9e27b759b3a234ebb2dc956c4a5a7c78fe8b37f8c653f980fb39178&=&format=webp&quality=lossless&width=737&height=417" width="300"/>
-<img src="https://media.discordapp.net/attachments/584650557688512533/1195030732591075370/m2.PNG?ex=65d76c19&is=65c4f719&hm=d166c3e179a467eef757f83b588130d8384f96e3efbfe82d9b1e7c5d2c4d2d09&=&format=webp&quality=lossless&width=737&height=417" width="300"/>
-<img src="https://media.discordapp.net/attachments/584650557688512533/1195030602597027920/m5.PNG?ex=65d76bfa&is=65c4f6fa&hm=7f30fb96b3cb7271bce36ff78ff79aeaf19e4e9ec26ca6ec93bb7680a7ec02bd&=&format=webp&quality=lossless&width=736&height=417" width="300"/>
-<img src="https://media.discordapp.net/attachments/584650557688512533/1195030731618001006/m3.PNG?ex=65d76c19&is=65c4f719&hm=967b615301c2a5b183c007e08a79ba3943f7c29344c771961f6ed147b4f24242&=&format=webp&quality=lossless&width=738&height=417" width="300"/>
-<img src="https://media.discordapp.net/attachments/584650557688512533/1195030603217772644/m7.PNG?ex=65d76bfa&is=65c4f6fa&hm=dbc5c1c61b29c327a73dd70aa5dc34f29575552bcd2867fe73949cf650f5564a&=&format=webp&quality=lossless&width=738&height=417" width="300"/>
-</div>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
