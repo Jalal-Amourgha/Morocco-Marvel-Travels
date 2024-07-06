@@ -166,13 +166,13 @@ const BillingPage = ({ params }: BillingPageProps) => {
       <h1 className="text-2xl text-gray-4 font-bold mb-5">
         Secure your reservation
       </h1>
-      <div className="grid grid-cols-[calc(60%-30px)_40%] gap-7">
+      <div className="grid grid-cols-1  lg:grid-cols-[calc(60%-30px)_40%] gap-7">
         <div>
           <div className="bg-white rounded-lg  mb-10">
             <div className="bg-primary px-4 py-3 text-white text-lg font-medium flex items-center gap-3 rounded-t-lg">
               <FaUser /> <h1>Personal Informations</h1>
             </div>
-            <div className="p-6 w-full md:w-2/3">
+            <div className="p-3 md:p-6 w-full md:w-2/3">
               <div className="flex items center gap-2 mb-5">
                 <div>
                   <label className="text-gray-4 font-semibold ">
@@ -274,10 +274,10 @@ const BillingPage = ({ params }: BillingPageProps) => {
                 </div>
               </div>
               <div className="flex items-center gap-2 mt-5">
-                <input type="checkbox" />
-                <p className="text-gray-4 font-medium">
+                <input type="checkbox" id="receive" />
+                <label htmlFor="receive" className="text-gray-4 font-medium">
                   Receive text alerts about this trip.
-                </p>
+                </label>
               </div>
             </div>
           </div>
@@ -285,7 +285,7 @@ const BillingPage = ({ params }: BillingPageProps) => {
             <div className="bg-primary px-4 py-3 text-white text-lg font-medium flex items-center gap-3 rounded-t-lg">
               <BsFillCreditCard2FrontFill /> <h1>Payment Details</h1>
             </div>
-            <div className="p-6 w-full md:w-2/3">
+            <div className="p-3 md:p-6 w-full md:w-2/3">
               <div className="flex itmes center gap-3 mb-5">
                 {paymentCards.map((card, index) => (
                   <div

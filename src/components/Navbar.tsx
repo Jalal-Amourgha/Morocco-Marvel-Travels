@@ -20,6 +20,11 @@ const Navbar = () => {
   const { data: session } = useSession();
   const [showProfileBox, setShowProfileBox] = useState<boolean>(false);
 
+  const handleNavigation = (path: string) => {
+    setShowNav(false);
+    router.push(path);
+  };
+
   return (
     <nav className="sticky top-0 left-0 w-full z-50 bg-gray-1 py-4 ">
       <div className="container flex justify-between items-center">
@@ -103,7 +108,7 @@ const Navbar = () => {
         )}
       </div>
       <ul
-        className={`absolute top-[84px] left-0 w-full h-[90vh] bg-gray-1 z-50 flex flex-col justify-center items-center gap-5 text-xl ${
+        className={`lg:hidden absolute top-[84px] left-0 w-full h-[90vh] bg-gray-1 z-50 flex flex-col justify-center items-center gap-5 text-xl ${
           showNav ? "translate-x-[0px]" : "translate-x-[100%]"
         }  duration-700`}
       >
@@ -111,10 +116,11 @@ const Navbar = () => {
           <li
             className={`${
               pathname === item.href ? "text-primary" : "text-gray-4"
-            } text-gray-4 font-medium hover:text-primary`}
+            } text-gray-4 font-medium hover:text-primary cursor-pointer`}
+            onClick={() => handleNavigation(item.href)}
             key={item.label}
           >
-            <Link href={item.href}>{item.label}</Link>
+            {item.label}
           </li>
         ))}
       </ul>

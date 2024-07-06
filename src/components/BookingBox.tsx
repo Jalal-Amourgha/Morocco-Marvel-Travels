@@ -93,7 +93,7 @@ const BookingBox = ({ data }: { data: any }) => {
               id="filled-number"
               label="Guests"
               type="number"
-              // value={1}
+              className="gray-1"
               inputProps={{ min: 1, max: 10 }}
               fullWidth
             />
