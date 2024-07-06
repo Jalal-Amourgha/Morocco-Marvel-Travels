@@ -108,7 +108,7 @@ const Navbar = () => {
         )}
       </div>
       <ul
-        className={`lg:hidden absolute top-[84px] left-0 w-full h-[90vh] bg-gray-1 z-50 flex flex-col justify-center items-center gap-5 text-xl ${
+        className={`lg:hidden absolute top-[80px] left-0 w-full h-[calc(100vh-80px)] bg-gray-1 z-50 flex flex-col justify-center items-center gap-5 text-xl ${
           showNav ? "translate-x-[0px]" : "translate-x-[100%]"
         }  duration-700`}
       >
