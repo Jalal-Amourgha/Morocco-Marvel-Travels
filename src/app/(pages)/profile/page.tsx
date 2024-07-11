@@ -6,7 +6,6 @@ import { FaPen, FaRegCreditCard, FaRegUser } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { IoCalendarOutline } from "react-icons/io5";
-
 import { TbLogout2 } from "react-icons/tb";
 import { signOut, useSession } from "next-auth/react";
 import { useAppContext } from "@/context";

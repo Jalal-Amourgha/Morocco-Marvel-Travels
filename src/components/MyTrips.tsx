@@ -37,7 +37,7 @@ const MyTrips = ({ data }: { data: any }) => {
             </div>
           ))
         ) : (
-          <h1 className="text-2xl text-gray-4 font-semibold text-center mt-5">
+          <h1 className="col-span-4 text-2xl text-gray-4 font-semibold text-center mt-5">
             Currently, your Bookign History is empty.
           </h1>
         )}
