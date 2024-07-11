@@ -24,7 +24,7 @@ interface BillingPageProps {
   };
 }
 const BillingPage = ({ params }: BillingPageProps) => {
-  const { nights, checkIn, checkOut } = useAppContext();
+  const { nights, checkIn, checkOut, setFilter } = useAppContext();
   const [itemSelected, setItemSelected] = useState<any>({ name: "" });
   const [country, setCountry] = useState<any>(countries[133]);
   const [displayCountries, setDisplayCountries] = useState<any>(false);
@@ -115,7 +115,7 @@ const BillingPage = ({ params }: BillingPageProps) => {
     }
 
     if (!session?.user?.email) {
-      return alert("Please Sign in");
+      return router.push(`/sign-in`);
     }
     if (session?.user?.email) {
       try {
@@ -141,6 +141,7 @@ const BillingPage = ({ params }: BillingPageProps) => {
 
         if (response.ok) {
           router.push("/profile");
+          setFilter("Booking History");
         }
       } catch (error) {
         console.log(error);
@@ -149,7 +150,7 @@ const BillingPage = ({ params }: BillingPageProps) => {
   };
 
   if (!itemSelected.name) {
-    return <h1>wallo</h1>;
+    return;
   }
 
   return (

@@ -27,7 +27,7 @@ const options = [
 ];
 
 const ProfilePage = () => {
-  const { reFetch, setReFetch } = useAppContext();
+  const { reFetch, filter, setFilter } = useAppContext();
   const [showIcon, setShowIcon] = useState(false);
   const [userData, setUserData] = useState({
     name: "",
@@ -35,7 +35,7 @@ const ProfilePage = () => {
     birthday: "",
     trips: [],
   });
-  const [filter, setFilter] = useState("Personal Informations");
+
   const { data: session } = useSession();
 
   const fetchUserData = async (id: string) => {

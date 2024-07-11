@@ -13,6 +13,7 @@ export function AppWrapper({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(false);
   const [reFetch, setReFetch] = useState(0);
   const [itemsToShow, setItemsToShow] = useState(data);
+  const [filter, setFilter] = useState("Personal Informations");
 
   useEffect(() => {
     //  fetchData().then((res) => setData(res));
@@ -43,18 +44,16 @@ export function AppWrapper({ children }: { children: React.ReactNode }) {
         checkOut,
         collection,
         reFetch,
+        filter,
         itemsToShow,
         setCitySelected,
-
         setNights,
-
         setCheckIn,
         setCheckOut,
-
         setCollection,
-
         setReFetch,
         setItemsToShow,
+        setFilter,
       }}
     >
       {children}
